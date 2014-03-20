@@ -1,53 +1,46 @@
----
-layout: default
-title: {{ site.name }}
-title: Jianqiu Xiao's Blog | 肖剑秋的博客
----
-<div id="home">
-	<div class="column one-fourth vcard">
-		<a class="vcard-avatar" href="https://0.gravatar.com/avatar/6717b5ad20e6b2a122d26f4281d7c3cc?d=https%3A%2F%2Fidenticons.github.com%2F05fa634311542bdc9b17b448bc3c982a.png&r=x&s=400" hidefocus="true">
-			<img class="avatar" width="230" height="230" src="https://0.gravatar.com/avatar/6717b5ad20e6b2a122d26f4281d7c3cc?d=https%3A%2F%2Fidenticons.github.com%2F05fa634311542bdc9b17b448bc3c982a.png&r=x&s=460">
-		</a>
-		<h1 class="vcard-names">
-			<span class="vcard-fullname">肖剑秋</span>
-			<span class="vcard-username">swordray</span>
-		</h1>
-		<ul class="vcard-details">
-			<li class="vcard-detail">
-				<span class="octicon octicon-mail"></span>
-				<a href="mailto:swordray@gmail.com" class="email">swordray@gmail.com</a>
-			</li>
-			<li class="vcard-detail">
-				<span class="octicon octicon-link"></span>
-				<a href="http://www.shuhai.org/" class="email">http://www.shuhai.org/</a>
-			</li>
-			<li class="vcard-detail">
-				<span class="octicon octicon-clock"></span>
-				<span class="join-label">Joined on </span>
-				<span class="join-date">Aug 27, 2010</span>
-			</li>
-		</ul>
-	</div>
-	<div class="column three-fourths">
-		<div class="header repohead">
-			<div class="heading">
-				<h1 class="public">
-					<span>
-						<a href="https://github.com/swordray" target="_blank">{{ page.title }}</a>
-					</span>			
-				</h1>
-			</div>
-			<!-- <a class="extra" href="/">home</a> -->
-		</div>
-		<div class="bubble files-bubble">
-			<div class="commit-tease">
-				<h1>Blog Posts</h1>
-			</div>
-			<ul class="posts">
-			{% for post in site.posts %}
-			  <li><a href="{{ post.url }}">{{ post.title }}</a><span>{{ post.date | date_to_string }}</span></li>
-			{% endfor %}
-			</ul>
-		</div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Zhixiaoyang.github.io : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Zhixiaoyang.github.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/zhixiaoyang">View on GitHub</a>
+
+          <h1 id="project_title">Zhixiaoyang.github.io</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="%E6%9D%A8%E5%BF%97%E6%99%93%E7%9A%84%E5%8D%9A%E5%AE%A2" class="anchor" href="#%E6%9D%A8%E5%BF%97%E6%99%93%E7%9A%84%E5%8D%9A%E5%AE%A2"><span class="octicon octicon-link"></span></a><a href="http://zhixiaoyang.github.io/">杨志晓的博客</a>
+</h1>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
