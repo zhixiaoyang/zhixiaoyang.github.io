@@ -31,7 +31,7 @@ a:focus{outline:none;-moz-outline:none;}
 .octicon-clock{background:url(../images/icon.jpg)0 -202px no-repeat;display:inline-block;height:16px;margin-top:3px;}
 .vcard-stat-count{color:#222222;display:block;font-size:28px;font-weight:bold;line-height:1;}
 .header{border-bottom:1px solid #EEEEEE;margin-bottom:5px;padding-bottom:45px;position:relative;}
-.heading{margin:0 auto;width:980px;}
+.heading{margin:0 auto;width:980px;background:#fff;}
 .heading h1{background:url(../images/icon.jpg) 0  -40px no-repeat;padding-left:35px;line-height:34px;font-size:20px;font-weight:normal;}
 .heading h1 strong{font-weight:bold;}
 .header.repohead h1{color:#666666;float:left;position:relative;}
