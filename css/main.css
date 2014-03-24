@@ -40,7 +40,7 @@ a:focus{outline:none;-moz-outline:none;}
 .header h1 a:hover{color:#4183C4;white-space:nowrap;}
 .photo{float:left;margin-right:10px;}
 .fn{float:left;}
-.article{margin:0 auto;width:980px;border:1px solid #ccc;margin-bottom:240px;clear:both;}
+.article{margin:0 auto;width:980px;border:1px solid #ccc;margin-bottom:240px;clear:both;background:#fff;}
 .post{padding:0 30px 30px;}
 h1,h2,h3,h4,h5,h6{font-size:1.35em;}
 .post h1{border-bottom:1px solid #ccc;font-size:2.5em;margin:1em 0 15px;line-height:1.7;cursor:text;}
